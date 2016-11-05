@@ -1,0 +1,34 @@
+./sources/odoo:
+  remotes:
+     oca: https://github.com/OCA/OCB.git
+     odoo: https://github.com/odoo/odoo.git
+     roussel2nis: git@github.com:roussel2nis/odoo.git
+  merges:
+     - oca 10.0
+  target: roussel2nis car_master
+
+./sources/anybox:
+  remotes:
+    anybox: https://github.com/anybox/anybox.recipe.odoo.git
+    roussel2nis: git@github.com:roussel2nis/anybox.recipe.odoo.git
+  merges:
+    - anybox master
+    - anybox refs/pull/88/head
+  target: roussel2nis car_master
+  
+./sources/connector:
+  remotes:
+     oca: https://github.com/OCA/connector.git
+     roussel2nis: git@github.com:roussel2nis/connector.git
+  merges:
+     - oca 10.0
+     - oca refs/pull/211/head
+  target: roussel2nis car_master
+  
+./sources/connector-interfaces:
+  remotes:
+     oca: https://github.com/OCA/connector-interfaces.git
+     roussel2nis: git@github.com:roussel2nis/connector-interfaces.git
+  merges:
+     - oca 10.0
+  target: roussel2nis car_master
