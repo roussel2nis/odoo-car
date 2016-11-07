@@ -10,9 +10,11 @@
 ./sources/anybox:
   remotes:
     anybox: https://github.com/anybox/anybox.recipe.odoo.git
+    acsone: https://github.com/acsone/anybox.recipe.odoo.git
     roussel2nis: git@github.com:roussel2nis/anybox.recipe.odoo.git
   merges:
     - anybox master
+    - roussel2nis master-add-release-dro
     - anybox refs/pull/88/head
   target: roussel2nis car_master
   
