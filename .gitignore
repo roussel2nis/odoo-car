@@ -3,3 +3,4 @@
 *.pyc
 *.eggs
 *.egg-info
+/src/
