@@ -2,7 +2,7 @@
 
 # odoo
 -r https://raw.githubusercontent.com/odoo/odoo/10.0/requirements.txt
--e git+ssh://git@github.com/acsone/odoo.git@10.0-crd_master#egg=odoo
+-e git+ssh://git@github.com/roussel2nis/odoo.git@car_master#egg=odoo
 
 # local project
 -e .
