@@ -14,7 +14,10 @@
                 'point_of_sale',
                 'account',
                 'account_accountant',
-                'car_pos_loyalty'
+                'car_pos_loyalty',
+                
+                # Server tools
+                'auto_backup',
     ],
     'data': [
     ],
