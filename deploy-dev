@@ -1,0 +1,22 @@
+#!/usr/bin/env python
+import subprocess
+import ConfigParser
+
+config = ConfigParser.ConfigParser()
+config.read('acsoo.cfg')
+version = config.get('acsoo', 'version')
+
+# for the sudo commands below to work, the sudoers file must contain
+# %odoo-test    ALL = (odoo-test) NOPASSWD: ALL
+# and the user must be in the odoo-car-dev group on the target machine
+
+subprocess.check_call([
+    'rsync', '--verbose', '--recursive', '--times', '--delete',
+    '--rsync-path', 'sudo -u odoo-test rsync',
+    'release/',
+    'denis@149.202.177.39:/home/odoo-test/instance/release/',
+])
+subprocess.check_call([
+    'ssh', 'denis@149.202.177.39',
+    'sudo -H -u odoo-test /home/odoo-test/instance/install.sh ' + version,
+])

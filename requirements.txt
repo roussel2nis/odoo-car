@@ -1,0 +1,61 @@
+--find-links https://wheelhouse.acsone.eu/manylinux1
+--find-links https://wheelhouse.acsone.eu/acsone-odoo
+--find-links https://wheelhouse.odoo-community.org/ocaBabel==2.3.4
+beautifulsoup4==4.5.1
+bobtemplates.odoo==1.1.0
+cffi==1.9.1
+cryptography==1.7.1
+decorator==4.0.10
+docutils==0.12
+ebaysdk==2.1.4
+enum34==1.1.6
+feedparser==5.2.1
+funcsigs==1.0.2
+gevent==1.1.2
+greenlet==0.4.10
+idna==2.2
+ipaddress==1.0.17
+jcconv==0.2.3
+Jinja2==2.8
+lxml==3.5.0
+Mako==1.0.4
+MarkupSafe==0.23
+mock==2.0.0
+mr.bob==0.1.2
+-e git+ssh://git@github.com/roussel2nis/odoo.git@efeb24c6287c7b47a2a3b9e7278fe681cf1597c7#egg=odoo
+-e git+ssh://git@github.com/roussel2nis/server-tools.git@2c57b899270a4bc354aab745fe9b1e07bd1d49e3#egg=odoo10_addon_auto_backup&subdirectory=setup/auto_backup
+-e git+ssh://git@github.com/roussel2nis/web.git@aa5a58045a02334cc5068529364dd8453dffdfd6#egg=odoo10_addon_web_responsive&subdirectory=setup/web_responsive
+ofxparse==0.15
+paramiko==2.1.1
+passlib==1.6.5
+pbr==1.10.0
+Pillow==3.4.1
+psutil==4.3.1
+psycogreen==1.0
+psycopg2==2.6.2
+pyasn1==0.1.9
+pycparser==2.17
+pydot==1.2.3
+pyOpenSSL==16.2.0
+pyparsing==2.1.10
+pyPdf==1.13
+pyserial==3.1.1
+pysftp==0.2.9
+Python-Chart==1.39
+python-dateutil==2.5.3
+python-ldap==2.4.27
+python-openid==2.2.5
+python-stdnum==1.5
+pytz==2016.7
+pyusb==1.0.0
+PyYAML==3.12
+qrcode==5.3
+reportlab==3.3.0
+requests==2.11.1
+six==1.10.0
+suds-jurko==0.6
+vatnumber==1.2
+vobject==0.9.3
+Werkzeug==0.11.11
+XlsxWriter==0.9.3
+xlwt==1.1.2

@@ -1,0 +1,373 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* car_pos_loyalty
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-10 05:56+0000\n"
+"PO-Revision-Date: 2016-11-10 05:56+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: car_pos_loyalty
+#: model:ir.model.fields,help:car_pos_loyalty.field_loyalty_reward_name
+msgid "An internal identification for this loyalty reward"
+msgstr "Une idtentification interne pour cette récompense de fidélité"
+
+#. module: car_pos_loyalty
+#: selection:loyalty.rule,type:0
+msgid "Category"
+msgstr "Catégorie"
+
+#. module: car_pos_loyalty
+#: model:ir.actions.act_window,help:car_pos_loyalty.action_loyalty_program_form
+msgid "Click to create a Loyalty Program."
+msgstr "Cliquer pour créer un Programme de Fidélité"
+
+#. module: car_pos_loyalty
+#: model:ir.model.fields,field_description:car_pos_loyalty.field_loyalty_program_create_uid
+#: model:ir.model.fields,field_description:car_pos_loyalty.field_loyalty_reward_create_uid
+#: model:ir.model.fields,field_description:car_pos_loyalty.field_loyalty_rule_create_uid
+msgid "Created by"
+msgstr "Créé par"
+
+#. module: car_pos_loyalty
+#: model:ir.model.fields,field_description:car_pos_loyalty.field_loyalty_program_create_date
+#: model:ir.model.fields,field_description:car_pos_loyalty.field_loyalty_reward_create_date
+#: model:ir.model.fields,field_description:car_pos_loyalty.field_loyalty_rule_create_date
+msgid "Created on"
+msgstr "Créé le"
+
+#. module: car_pos_loyalty
+#: model:ir.model.fields,field_description:car_pos_loyalty.field_loyalty_rule_cumulative
+msgid "Cumulative"
+msgstr "Cumulatif"
+
+#. module: car_pos_loyalty
+#: model:ir.model.fields,field_description:car_pos_loyalty.field_loyalty_reward_discount
+#: selection:loyalty.reward,type:0
+msgid "Discount"
+msgstr "Remise"
+
+#. module: car_pos_loyalty
+#: model:ir.model.fields,field_description:car_pos_loyalty.field_loyalty_reward_discount_product_id
+msgid "Discount Product"
+msgstr "Produit de remise"
+
+#. module: car_pos_loyalty
+#: model:ir.model.fields,field_description:car_pos_loyalty.field_loyalty_program_display_name
+#: model:ir.model.fields,field_description:car_pos_loyalty.field_loyalty_reward_display_name
+#: model:ir.model.fields,field_description:car_pos_loyalty.field_loyalty_rule_display_name
+msgid "Display Name"
+msgstr "Afficher le nom"
+
+#. module: car_pos_loyalty
+#: selection:loyalty.reward,type:0
+msgid "Gift"
+msgstr "Cadeau"
+
+#. module: car_pos_loyalty
+#: model:ir.model.fields,field_description:car_pos_loyalty.field_loyalty_reward_gift_product_id
+msgid "Gift Product"
+msgstr "Produit de cadeau"
+
+#. module: car_pos_loyalty
+#: model:ir.model.fields,field_description:car_pos_loyalty.field_loyalty_program_id
+#: model:ir.model.fields,field_description:car_pos_loyalty.field_loyalty_reward_id
+#: model:ir.model.fields,field_description:car_pos_loyalty.field_loyalty_rule_id
+msgid "ID"
+msgstr "ID"
+
+#. module: car_pos_loyalty
+#: model:ir.model.fields,field_description:car_pos_loyalty.field_loyalty_program___last_update
+#: model:ir.model.fields,field_description:car_pos_loyalty.field_loyalty_reward___last_update
+#: model:ir.model.fields,field_description:car_pos_loyalty.field_loyalty_rule___last_update
+msgid "Last Modified on"
+msgstr "Dernière Modification le"
+
+#. module: car_pos_loyalty
+#: model:ir.model.fields,field_description:car_pos_loyalty.field_loyalty_program_write_uid
+#: model:ir.model.fields,field_description:car_pos_loyalty.field_loyalty_reward_write_uid
+#: model:ir.model.fields,field_description:car_pos_loyalty.field_loyalty_rule_write_uid
+msgid "Last Updated by"
+msgstr "Dernière mise à jour par"
+
+#. module: car_pos_loyalty
+#: model:ir.model.fields,field_description:car_pos_loyalty.field_loyalty_program_write_date
+#: model:ir.model.fields,field_description:car_pos_loyalty.field_loyalty_reward_write_date
+#: model:ir.model.fields,field_description:car_pos_loyalty.field_loyalty_rule_write_date
+msgid "Last Updated on"
+msgstr "Dernière mise à jour le"
+
+#. module: car_pos_loyalty
+#: model:ir.model.fields,field_description:car_pos_loyalty.field_pos_order_loyalty_points
+#: model:ir.model.fields,field_description:car_pos_loyalty.field_res_partner_loyalty_points
+msgid "Loyalty Points"
+msgstr "Points de fidélité"
+
+#. module: car_pos_loyalty
+#: model:ir.model.fields,field_description:car_pos_loyalty.field_loyalty_reward_loyalty_program_id
+#: model:ir.model.fields,field_description:car_pos_loyalty.field_loyalty_rule_loyalty_program_id
+#: model:ir.model.fields,field_description:car_pos_loyalty.field_pos_config_loyalty_id
+#: model:ir.ui.view,arch_db:car_pos_loyalty.view_loyalty_program_form
+#: model:ir.ui.view,arch_db:car_pos_loyalty.view_partner_property_form
+#: model:ir.ui.view,arch_db:car_pos_loyalty.view_pos_config_form
+msgid "Loyalty Program"
+msgstr "Programme de fidelité"
+
+#. module: car_pos_loyalty
+#: model:ir.model.fields,field_description:car_pos_loyalty.field_loyalty_program_name
+#: model:ir.model.fields,field_description:car_pos_loyalty.field_loyalty_rule_name
+#: model:ir.ui.view,arch_db:car_pos_loyalty.view_loyalty_program_form
+msgid "Loyalty Program Name"
+msgstr "Nom du programme de fidélité"
+
+#. module: car_pos_loyalty
+#: model:ir.actions.act_window,name:car_pos_loyalty.action_loyalty_program_form
+#: model:ir.ui.menu,name:car_pos_loyalty.menu_loyalty_program
+#: model:ir.ui.view,arch_db:car_pos_loyalty.view_loyalty_program_tree
+#: model:ir.ui.view,arch_db:car_pos_loyalty.view_pos_pos_form
+msgid "Loyalty Programs"
+msgstr "Programmes de fidélités"
+
+#. module: car_pos_loyalty
+#: model:ir.actions.act_window,help:car_pos_loyalty.action_loyalty_program_form
+msgid "Loyalty Programs allows you customer to earn points\n"
+"                    and rewards when doing business at your shops."
+msgstr "Les programmes de fidélité vous permettent de faire gagner des points au client\n"
+"                    et le récompenser lorsqu\'il vous rend visite."
+
+#. module: car_pos_loyalty
+#: model:ir.ui.view,arch_db:car_pos_loyalty.view_loyalty_reward_form
+msgid "Loyalty Reward"
+msgstr "Récompense de fidélité"
+
+#. module: car_pos_loyalty
+#: model:ir.ui.view,arch_db:car_pos_loyalty.view_loyalty_rule_form
+msgid "Loyalty Rule"
+msgstr "Règle de fidélité"
+
+#. module: car_pos_loyalty
+#: model:ir.model.fields,field_description:car_pos_loyalty.field_loyalty_reward_minimum_points
+msgid "Minimum Points"
+msgstr "Points minimum"
+
+#. module: car_pos_loyalty
+#: model:ir.model.fields,field_description:car_pos_loyalty.field_loyalty_reward_name
+msgid "Name"
+msgstr "Nom"
+
+#. module: car_pos_loyalty
+#: model:ir.model,name:car_pos_loyalty.model_res_partner
+msgid "Partner"
+msgstr "Partenaire"
+
+#. module: car_pos_loyalty
+#: model:ir.model.fields,field_description:car_pos_loyalty.field_loyalty_reward_point_cost
+msgid "Point Cost"
+msgstr "Coût des points"
+
+#. module: car_pos_loyalty
+#: model:ir.model.fields,field_description:car_pos_loyalty.field_loyalty_reward_point_product_id
+msgid "Point Product"
+msgstr "Produit de point"
+
+#. module: car_pos_loyalty
+#: model:ir.model,name:car_pos_loyalty.model_pos_order
+msgid "Point of Sale"
+msgstr "Point de Vente"
+
+#. module: car_pos_loyalty
+#. openerp-web
+#: code:addons/car_pos_loyalty/static/src/xml/loyalty.xml:6
+#: code:addons/car_pos_loyalty/static/src/xml/loyalty.xml:71
+#: code:addons/car_pos_loyalty/static/src/xml/loyalty.xml:81
+#, python-format
+msgid "Points"
+msgstr "Points"
+
+#. module: car_pos_loyalty
+#: model:ir.model.fields,field_description:car_pos_loyalty.field_loyalty_program_rounding
+msgid "Points Rounding"
+msgstr "Arrondi des points"
+
+#. module: car_pos_loyalty
+#. openerp-web
+#: code:addons/car_pos_loyalty/static/src/xml/loyalty.xml:57
+#, python-format
+msgid "Points Spent"
+msgstr "Points dépensés"
+
+#. module: car_pos_loyalty
+#. openerp-web
+#: code:addons/car_pos_loyalty/static/src/xml/loyalty.xml:54
+#, python-format
+msgid "Points Won"
+msgstr "Points gagnés"
+
+#. module: car_pos_loyalty
+#: model:ir.model.fields,field_description:car_pos_loyalty.field_loyalty_program_pp_currency
+#: model:ir.model.fields,field_description:car_pos_loyalty.field_loyalty_rule_pp_currency
+msgid "Points per currency"
+msgstr "Points par devise"
+
+#. module: car_pos_loyalty
+#: model:ir.model.fields,field_description:car_pos_loyalty.field_loyalty_program_pp_order
+msgid "Points per order"
+msgstr "Points par commande"
+
+#. module: car_pos_loyalty
+#: model:ir.model.fields,field_description:car_pos_loyalty.field_loyalty_program_pp_product
+#: model:ir.model.fields,field_description:car_pos_loyalty.field_loyalty_rule_pp_product
+msgid "Points per product"
+msgstr "Points par produit"
+
+#. module: car_pos_loyalty
+#: selection:loyalty.rule,type:0
+msgid "Product"
+msgstr "Produit"
+
+#. module: car_pos_loyalty
+#: selection:loyalty.reward,type:0
+msgid "Resale"
+msgstr "Revente"
+
+#. module: car_pos_loyalty
+#: model:ir.ui.view,arch_db:car_pos_loyalty.view_loyalty_reward_form
+msgid "Reward Name"
+msgstr "Nom de récompense"
+
+#. module: car_pos_loyalty
+#: model:ir.ui.view,arch_db:car_pos_loyalty.view_loyalty_program_form
+msgid "Reward the customer with gifts or discounts for loyalty points"
+msgstr "Récompenser le client avec des cadeaux ou avec des remises pour les points de fidélité"
+
+#. module: car_pos_loyalty
+#. openerp-web
+#: code:addons/car_pos_loyalty/static/src/xml/loyalty.xml:25
+#: model:ir.model.fields,field_description:car_pos_loyalty.field_loyalty_program_reward_ids
+#: model:ir.ui.view,arch_db:car_pos_loyalty.view_loyalty_program_form
+#, python-format
+msgid "Rewards"
+msgstr "Récompenses"
+
+#. module: car_pos_loyalty
+#: model:ir.ui.view,arch_db:car_pos_loyalty.view_loyalty_rule_form
+msgid "Rule Name"
+msgstr "Nom de la règle"
+
+#. module: car_pos_loyalty
+#: model:ir.model.fields,field_description:car_pos_loyalty.field_loyalty_program_rule_ids
+#: model:ir.ui.view,arch_db:car_pos_loyalty.view_loyalty_program_form
+msgid "Rules"
+msgstr "Règles"
+
+#. module: car_pos_loyalty
+#: model:ir.ui.view,arch_db:car_pos_loyalty.view_loyalty_program_form
+msgid "Rules change how loyalty points are earned for specific products or categories"
+msgstr "Les règles changent la façon dont les points de fidélité sont épargnés pour des produits spécifiques ou des catégories"
+
+#. module: car_pos_loyalty
+#: model:ir.model.fields,field_description:car_pos_loyalty.field_loyalty_rule_category_id
+msgid "Target Category"
+msgstr "Catégorie cible"
+
+#. module: car_pos_loyalty
+#: model:ir.model.fields,field_description:car_pos_loyalty.field_loyalty_rule_product_id
+msgid "Target Product"
+msgstr "Produit Cible"
+
+#. module: car_pos_loyalty
+#: model:ir.model.fields,help:car_pos_loyalty.field_loyalty_reward_loyalty_program_id
+msgid "The Loyalty Program this reward belongs to"
+msgstr "Le programme de fidélité auquel appartient cette récompense"
+
+#. module: car_pos_loyalty
+#: model:ir.model.fields,help:car_pos_loyalty.field_pos_order_loyalty_points
+msgid "The amount of Loyalty points the customer won or lost with this order"
+msgstr "Le montant de points de fidélité le client a gagné ou perdu avec cette commande"
+
+#. module: car_pos_loyalty
+#: model:ir.model.fields,help:car_pos_loyalty.field_loyalty_reward_point_cost
+msgid "The cost of the reward"
+msgstr "Le coût de la récompense"
+
+#. module: car_pos_loyalty
+#: model:ir.model.fields,help:car_pos_loyalty.field_loyalty_reward_discount
+msgid "The discount percentage"
+msgstr "Le pourcentage de remise"
+
+#. module: car_pos_loyalty
+#: model:ir.model.fields,help:car_pos_loyalty.field_res_partner_loyalty_points
+msgid "The loyalty points the user won as part of a Loyalty Program"
+msgstr "Les points de fidélité que l\'utilisateur a gagné faisant partie d\'un programme de fidélité"
+
+#. module: car_pos_loyalty
+#: model:ir.model.fields,help:car_pos_loyalty.field_pos_config_loyalty_id
+msgid "The loyalty program used by this point_of_sale"
+msgstr "Le programme de fidélité utilisé par ce point de vente"
+
+#. module: car_pos_loyalty
+#: model:ir.model.fields,help:car_pos_loyalty.field_loyalty_reward_minimum_points
+msgid "The minimum amount of points the customer must have to qualify for this reward"
+msgstr "The minimum amount of points the customer must have to qualify for this reward"
+
+#. module: car_pos_loyalty
+#: model:ir.model.fields,help:car_pos_loyalty.field_loyalty_reward_gift_product_id
+msgid "The product given as a reward"
+msgstr "The product given as a reward"
+
+#. module: car_pos_loyalty
+#: model:ir.model.fields,help:car_pos_loyalty.field_loyalty_reward_point_product_id
+msgid "The product that represents a point that is sold by the customer"
+msgstr "Le produit que représente un point qui est vendu au client"
+
+#. module: car_pos_loyalty
+#: model:ir.model.fields,help:car_pos_loyalty.field_loyalty_reward_discount_product_id
+msgid "The product used to apply discounts"
+msgstr "Le produit utilisé pour appliquer les remises"
+
+#. module: car_pos_loyalty
+#: model:ir.model.fields,help:car_pos_loyalty.field_loyalty_reward_type
+msgid "The type of the reward"
+msgstr "Le type de récompense"
+
+#. module: car_pos_loyalty
+#. openerp-web
+#: code:addons/car_pos_loyalty/static/src/xml/loyalty.xml:60
+#, python-format
+msgid "Total Points"
+msgstr "Points total"
+
+#. module: car_pos_loyalty
+#: model:ir.model.fields,field_description:car_pos_loyalty.field_loyalty_reward_type
+#: model:ir.model.fields,field_description:car_pos_loyalty.field_loyalty_rule_type
+msgid "Type"
+msgstr "Type"
+
+#. module: car_pos_loyalty
+#: model:ir.model,name:car_pos_loyalty.model_loyalty_program
+msgid "loyalty.program"
+msgstr "loyalty.program"
+
+#. module: car_pos_loyalty
+#: model:ir.model,name:car_pos_loyalty.model_loyalty_reward
+msgid "loyalty.reward"
+msgstr "loyalty.reward"
+
+#. module: car_pos_loyalty
+#: model:ir.model,name:car_pos_loyalty.model_loyalty_rule
+msgid "loyalty.rule"
+msgstr "loyalty.rule"
+
+#. module: car_pos_loyalty
+#: model:ir.model,name:car_pos_loyalty.model_pos_config
+msgid "pos.config"
+msgstr "pos.config"
+

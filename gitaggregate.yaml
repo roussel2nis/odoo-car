@@ -1,13 +1,15 @@
-./sources/odoo:
+./src/odoo:
   remotes:
      oca: https://github.com/OCA/OCB.git
      odoo: https://github.com/odoo/odoo.git
+     acsone: https://github.com/acsone/odoo.git
      roussel2nis: git@github.com:roussel2nis/odoo.git
   merges:
      - oca 10.0
+     - acsone 10.0-with-setup
   target: roussel2nis car_master
 
-./sources/anybox:
+./src/anybox:
   remotes:
     anybox: https://github.com/anybox/anybox.recipe.odoo.git
     acsone: https://github.com/acsone/anybox.recipe.odoo.git
@@ -18,7 +20,7 @@
     - anybox refs/pull/88/head
   target: roussel2nis car_master
   
-./sources/connector:
+./src/connector:
   remotes:
      oca: https://github.com/OCA/connector.git
      roussel2nis: git@github.com:roussel2nis/connector.git
@@ -27,10 +29,27 @@
      - oca refs/pull/211/head
   target: roussel2nis car_master
   
-./sources/connector-interfaces:
+./src/connector-interfaces:
   remotes:
      oca: https://github.com/OCA/connector-interfaces.git
      roussel2nis: git@github.com:roussel2nis/connector-interfaces.git
   merges:
      - oca 10.0
+  target: roussel2nis car_master
+  
+./src/server-tools:
+  remotes:
+     oca: https://github.com/OCA/server-tools.git
+     roussel2nis: git@github.com:roussel2nis/server-tools.git
+  merges:
+     - oca 10.0
+  target: roussel2nis car_master
+  
+./src/web:
+  remotes:
+     oca: https://github.com/OCA/web.git
+     roussel2nis: git@github.com:roussel2nis/web.git
+  merges:
+     - oca 10.0
+     - oca refs/pull/513/head
   target: roussel2nis car_master

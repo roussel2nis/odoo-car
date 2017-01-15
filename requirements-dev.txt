@@ -1,0 +1,14 @@
+-r requirements-find-links.txt
+
+# odoo
+-r https://raw.githubusercontent.com/odoo/odoo/10.0/requirements.txt
+-e git+ssh://git@github.com/roussel2nis/odoo.git@car_master#egg=odoo
+
+# Server-tools
+-e git+ssh://git@github.com/roussel2nis/server-tools.git@car_master#egg=odoo10-addon-auto_backup&subdirectory=setup/auto_backup
+
+# Web
+-e git+ssh://git@github.com/roussel2nis/web.git@car_master#egg=odoo10-addon-web_responsive&subdirectory=setup/web_responsive
+
+# local project
+-e .
