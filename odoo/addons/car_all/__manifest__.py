@@ -18,6 +18,8 @@
                 
                 # Server tools
                 'auto_backup',
+                'web_responsive',
+                'base_technical_features',
     ],
     'data': [
     ],
