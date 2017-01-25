@@ -43,6 +43,7 @@
      roussel2nis: git@github.com:roussel2nis/server-tools.git
   merges:
      - oca 10.0
+     - oca refs/pull/711/head
   target: roussel2nis car_master
   
 ./src/web:
@@ -52,4 +53,20 @@
   merges:
      - oca 10.0
      - oca refs/pull/513/head
+  target: roussel2nis car_master
+  
+./src/account-financial-reporting:
+  remotes:
+     oca: https://github.com/OCA/account-financial-reporting.git
+     roussel2nis: git@github.com:roussel2nis/account-financial-reporting.git
+  merges:
+     - oca 10.0
+  target: roussel2nis car_master
+  
+./src/l10n-belgium:
+  remotes:
+     oca: https://github.com/OCA/l10n-belgium.git
+     roussel2nis: git@github.com:roussel2nis/l10n-belgium.git
+  merges:
+     - oca 10.0
   target: roussel2nis car_master
