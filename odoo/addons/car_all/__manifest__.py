@@ -15,6 +15,7 @@
                 'account',
                 'account_accountant',
                 'car_pos_loyalty',
+                'pos_cache',
                 
                 # Server tools
                 'auto_backup',
