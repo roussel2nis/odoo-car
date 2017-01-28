@@ -16,9 +16,13 @@
                 'account_accountant',
                 'car_pos_loyalty',
                 'pos_cache',
+                'web_environment_ribbon',
                 
                 # Server tools
                 'auto_backup',
+                'server_environment_files',
+                'server_environment',
+                'server_environment_ir_config_parameter',
                 'web_responsive',
                 'base_technical_features',
     ],

@@ -7,9 +7,12 @@
 # Server-tools
 -e git+ssh://git@github.com/roussel2nis/server-tools.git@car_master#egg=odoo10-addon-auto_backup&subdirectory=setup/auto_backup
 -e git+ssh://git@github.com/roussel2nis/server-tools.git@car_master#egg=odoo10-addon-base_technical_features&subdirectory=setup/base_technical_features
+-e git+ssh://git@github.com/roussel2nis/server-tools.git@car_master#egg=odoo10-addon-server_environment&subdirectory=setup/server_environment
+-e git+ssh://git@github.com/roussel2nis/server-tools.git@car_master#egg=odoo10-addon-server_environment_ir_config_parameter&subdirectory=setup/server_environment_ir_config_parameter
 
 # Web
 -e git+ssh://git@github.com/roussel2nis/web.git@car_master#egg=odoo10-addon-web_responsive&subdirectory=setup/web_responsive
+-e git+ssh://git@github.com/roussel2nis/web.git@car_master#egg=odoo10-addon-web_environment_ribbon&subdirectory=setup/web_environment_ribbon
 
 # account-financial-reporting
 -e git+ssh://git@github.com/roussel2nis/account-financial-reporting.git@car_master#egg=odoo10-addon-mis_builder&subdirectory=setup/mis_builder

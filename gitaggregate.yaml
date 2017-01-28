@@ -43,6 +43,8 @@
      roussel2nis: git@github.com:roussel2nis/server-tools.git
   merges:
      - oca 10.0
+     - oca refs/pull/595/head # server_environment
+     - oca refs/pull/640/head # server_environment_ir_config
      - oca refs/pull/711/head
   target: roussel2nis car_master
   
