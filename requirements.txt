@@ -29,6 +29,7 @@ odoo10-addon-date-range==10.0.1.0.0.99.dev17
 -e git+ssh://git@github.com/roussel2nis/account-financial-reporting.git@335c2e2844f13c64220024c02172b8b9780a2b04#egg=odoo10_addon_mis_builder&subdirectory=setup/mis_builder
 odoo10-addon-report-xlsx==10.0.1.0.0.99.dev1
 -e git+ssh://git@github.com/roussel2nis/server-tools.git@0fc4843a153b2a4e3e9c429302f8e03ae37e901e#egg=odoo10_addon_server_environment&subdirectory=setup/server_environment
+-e git+ssh://git@github.com/roussel2nis/server-tools.git@0fc4843a153b2a4e3e9c429302f8e03ae37e901e#egg=odoo10_addon_server_environment_ir_config_parameter&subdirectory=setup/server_environment_ir_config_parameter
 -e git+ssh://git@github.com/roussel2nis/web.git@aa5a58045a02334cc5068529364dd8453dffdfd6#egg=odoo10_addon_web_environment_ribbon&subdirectory=setup/web_environment_ribbon
 -e git+ssh://git@github.com/roussel2nis/web.git@aa5a58045a02334cc5068529364dd8453dffdfd6#egg=odoo10_addon_web_responsive&subdirectory=setup/web_responsive
 odoo10-addon-web-widget-color==10.0.1.0.0
