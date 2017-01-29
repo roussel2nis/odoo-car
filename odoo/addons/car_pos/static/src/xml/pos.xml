@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <templates id="template" xml:space="preserve">
-     <t t-extend="XmlReceipt">
-        <t t-jquery-="t[t-esc='order.name'].parent()" t-operation="before">
-            <t t-if='receipt.company.logo'>
-                <div id="company_logo" style="text-align:center;"><img t-att-src="receipt.company.logo" height="150px" width="150px"/></div>
-                <br/>
-            </t>
-        </t>
-     </t>
+
      <t t-extend="PosTicket">
-        <t t-jquery="t[t-esc='order.name']" t-operation="after">
+        <t t-jquery="t[t-esc='moment().format(\'L LT\')']" t-operation="before">
             <t t-if='receipt.company.logo'>
+            
                 <div id="company_logo" style="text-align:center;"><img t-att-src="receipt.company.logo" height="150px" width="150px"/></div>
                 <br/>
             </t>
