@@ -16,6 +16,7 @@
                 'account_accountant',
                 'car_pos_loyalty',
                 'pos_cache',
+                'car_pos',
                 'web_environment_ribbon',
                 
                 # Server tools
