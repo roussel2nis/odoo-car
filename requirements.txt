@@ -1,6 +1,7 @@
 --find-links https://wheelhouse.acsone.eu/manylinux1
 --find-links https://wheelhouse.acsone.eu/acsone-odoo
---find-links https://wheelhouse.odoo-community.org/ocaBabel==2.3.4
+--find-links https://wheelhouse.odoo-community.org/oca
+Babel==2.3.4
 beautifulsoup4==4.5.1
 bobtemplates.odoo==1.1.0
 cffi==1.9.1

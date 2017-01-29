@@ -3,7 +3,15 @@
      <t t-extend="XmlReceipt">
         <t t-jquery-="t[t-esc='order.name'].parent()" t-operation="before">
             <t t-if='receipt.company.logo'>
-                <img t-att-src='receipt.company.logo' />
+                <div id="company_logo" style="text-align:center;"><img t-att-src="receipt.company.logo" height="150px" width="150px"/></div>
+                <br/>
+            </t>
+        </t>
+     </t>
+     <t t-extend="PosTicket">
+        <t t-jquery="t[t-esc='order.name']" t-operation="after">
+            <t t-if='receipt.company.logo'>
+                <div id="company_logo" style="text-align:center;"><img t-att-src="receipt.company.logo" height="150px" width="150px"/></div>
                 <br/>
             </t>
         </t>
