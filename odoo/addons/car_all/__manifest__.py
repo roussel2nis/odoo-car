@@ -18,7 +18,6 @@
                 'pos_cache',
                 'car_pos',
                 'web_environment_ribbon',
-                
                 # Server tools
                 'auto_backup',
                 'server_environment_files',
