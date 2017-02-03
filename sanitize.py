@@ -12,7 +12,7 @@ args = parser.parse_args()
 def sanitize(cr, args, database):
     
     _logger.info('TEST')
-    cr.execute("""update res_partner SET email = ''""")
+    cr.execute("""update res_partner SET email = 'a@a.com'""")
     
     cr.execute("""update ir_mail_server SET active = false""")
     
