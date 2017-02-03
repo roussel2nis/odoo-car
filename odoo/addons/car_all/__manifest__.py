@@ -6,7 +6,7 @@
     'name': 'Car All',
     'description': """
         All Dependencies""",
-    'version': '10.0.1.0.0',
+    'version': '10.0.1.0.1',
     'license': 'AGPL-3',
     'author': 'Denis Roussel',
     'depends': ['sale',
@@ -20,6 +20,7 @@
                 'web_environment_ribbon',
                 # Server tools
                 'auto_backup',
+                'disable_odoo_online',
                 'server_environment_files',
                 'server_environment',
                 'server_environment_ir_config_parameter',

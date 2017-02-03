@@ -27,6 +27,7 @@ mr.bob==0.1.2
 -e git+ssh://git@github.com/roussel2nis/server-tools.git@0fc4843a153b2a4e3e9c429302f8e03ae37e901e#egg=odoo10_addon_auto_backup&subdirectory=setup/auto_backup
 -e git+ssh://git@github.com/roussel2nis/server-tools.git@0fc4843a153b2a4e3e9c429302f8e03ae37e901e#egg=odoo10_addon_base_technical_features&subdirectory=setup/base_technical_features
 odoo10-addon-date-range==10.0.1.0.0.99.dev17
+odoo10-addon-disable-odoo-online==10.0.1.0.0.99.dev1
 -e git+ssh://git@github.com/roussel2nis/account-financial-reporting.git@335c2e2844f13c64220024c02172b8b9780a2b04#egg=odoo10_addon_mis_builder&subdirectory=setup/mis_builder
 odoo10-addon-report-xlsx==10.0.1.0.0.99.dev1
 -e git+ssh://git@github.com/roussel2nis/server-tools.git@0fc4843a153b2a4e3e9c429302f8e03ae37e901e#egg=odoo10_addon_server_environment&subdirectory=setup/server_environment

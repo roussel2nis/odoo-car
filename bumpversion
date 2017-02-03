@@ -1,0 +1,31 @@
+#!/usr/bin/env python
+import re
+import sys
+
+
+def replace(filename, pattern, version):
+    with open(filename) as f:
+        s = f.read()
+        s = re.sub(pattern, r'\g<1>' + version + r'\g<3>', s, flags=re.MULTILINE)
+    with open(filename, "w") as f:
+        f.write(s)
+
+
+def main():
+    version = sys.argv[1]
+    replace('acsoo.cfg', 
+            r'(^version=)(.*?)($)', 
+            version)
+    replace('odoo/addons/car_all/__manifest__.py', 
+            r"('version': '10\.0\.)(.*?)(',)", 
+            version)
+    replace('odoo/addons/server_environment_files/dev/dev.conf',
+            r"(^ribbon\.name=)(.*?)($)",
+            'DEV ' + version)
+    replace('odoo/addons/server_environment_files/test/test.conf',
+            r"(^ribbon\.name=)(.*?)($)",
+            'TEST ' + version)
+
+
+if __name__ == '__main__':
+    main()
