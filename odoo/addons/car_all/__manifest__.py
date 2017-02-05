@@ -26,6 +26,7 @@
                 'server_environment_ir_config_parameter',
                 'web_responsive',
                 'base_technical_features',
+                'help_online'
     ],
     'data': [
     ],

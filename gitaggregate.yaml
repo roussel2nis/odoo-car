@@ -54,7 +54,7 @@
      roussel2nis: git@github.com:roussel2nis/web.git
   merges:
      - oca 10.0
-     - oca refs/pull/513/head
+     - oca refs/pull/526/head # Help Online
   target: roussel2nis car_master
   
 ./src/account-financial-reporting:
