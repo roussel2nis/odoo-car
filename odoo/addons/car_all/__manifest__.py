@@ -6,7 +6,7 @@
     'name': 'Car All',
     'description': """
         All Dependencies""",
-    'version': '10.0.1.0.1',
+    'version': '10.0.1.1.0',
     'license': 'AGPL-3',
     'author': 'Denis Roussel',
     'depends': ['sale',
