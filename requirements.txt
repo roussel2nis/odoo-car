@@ -23,13 +23,14 @@ Mako==1.0.4
 MarkupSafe==0.23
 mock==2.0.0
 mr.bob==0.1.2
--e git+ssh://git@github.com/roussel2nis/odoo.git@efeb24c6287c7b47a2a3b9e7278fe681cf1597c7#egg=odoo
+-e git+ssh://git@github.com/roussel2nis/odoo.git@22589f12ec44aa7d283ff37aac58be90b0adce49#egg=odoo
 -e git+ssh://git@github.com/roussel2nis/server-tools.git@0fc4843a153b2a4e3e9c429302f8e03ae37e901e#egg=odoo10_addon_auto_backup&subdirectory=setup/auto_backup
 -e git+ssh://git@github.com/roussel2nis/server-tools.git@0fc4843a153b2a4e3e9c429302f8e03ae37e901e#egg=odoo10_addon_base_technical_features&subdirectory=setup/base_technical_features
 odoo10-addon-date-range==10.0.1.0.0.99.dev17
 odoo10-addon-disable-odoo-online==10.0.1.0.0.99.dev1
 -e git+ssh://git@github.com/roussel2nis/web.git@89f2c8ce29e8e95bd275716503ffae7107fbf889#egg=odoo10_addon_help_online&subdirectory=setup/help_online
 -e git+ssh://git@github.com/roussel2nis/account-financial-reporting.git@335c2e2844f13c64220024c02172b8b9780a2b04#egg=odoo10_addon_mis_builder&subdirectory=setup/mis_builder
+-e git+ssh://git@github.com/roussel2nis/pos-addons.git@5f672d357e62f25087100f695371ab5ede2a8149#egg=odoo10_addon_pos_product_available&subdirectory=setup/pos_product_available
 odoo10-addon-report-xlsx==10.0.1.0.0.99.dev1
 -e git+ssh://git@github.com/roussel2nis/server-tools.git@0fc4843a153b2a4e3e9c429302f8e03ae37e901e#egg=odoo10_addon_server_environment&subdirectory=setup/server_environment
 -e git+ssh://git@github.com/roussel2nis/server-tools.git@0fc4843a153b2a4e3e9c429302f8e03ae37e901e#egg=odoo10_addon_server_environment_ir_config_parameter&subdirectory=setup/server_environment_ir_config_parameter

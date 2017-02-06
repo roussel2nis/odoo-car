@@ -17,6 +17,7 @@
                 'car_pos_loyalty',
                 'pos_cache',
                 'car_pos',
+                'pos_product_available',
                 'web_environment_ribbon',
                 # Server tools
                 'auto_backup',

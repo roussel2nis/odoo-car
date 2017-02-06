@@ -72,3 +72,12 @@
   merges:
      - oca 10.0
   target: roussel2nis car_master
+  
+./src/pos-addons:
+  remotes:
+     llc: https://github.com/it-projects-llc/pos-addons.git
+     roussel2nis: git@github.com:roussel2nis/pos-addons.git
+  merges:
+     - llc 10.0
+     - roussel2nis 10.0-pos_product_available
+  target: roussel2nis car_master
