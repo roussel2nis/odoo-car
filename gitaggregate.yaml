@@ -54,7 +54,7 @@
      roussel2nis: git@github.com:roussel2nis/web.git
   merges:
      - oca 10.0
-     - oca refs/pull/513/head
+     - oca refs/pull/526/head # Help Online
   target: roussel2nis car_master
   
 ./src/account-financial-reporting:
@@ -71,4 +71,13 @@
      roussel2nis: git@github.com:roussel2nis/l10n-belgium.git
   merges:
      - oca 10.0
+  target: roussel2nis car_master
+  
+./src/pos-addons:
+  remotes:
+     llc: https://github.com/it-projects-llc/pos-addons.git
+     roussel2nis: git@github.com:roussel2nis/pos-addons.git
+  merges:
+     - llc 10.0
+     - roussel2nis 10.0-pos_product_available
   target: roussel2nis car_master

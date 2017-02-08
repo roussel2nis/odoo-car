@@ -6,7 +6,7 @@
     'name': 'Car All',
     'description': """
         All Dependencies""",
-    'version': '10.0.1.0.1',
+    'version': '10.0.1.1.0',
     'license': 'AGPL-3',
     'author': 'Denis Roussel',
     'depends': ['sale',
@@ -17,6 +17,7 @@
                 'car_pos_loyalty',
                 'pos_cache',
                 'car_pos',
+                'pos_product_available',
                 'web_environment_ribbon',
                 # Server tools
                 'auto_backup',
@@ -26,6 +27,7 @@
                 'server_environment_ir_config_parameter',
                 'web_responsive',
                 'base_technical_features',
+                'help_online'
     ],
     'data': [
     ],

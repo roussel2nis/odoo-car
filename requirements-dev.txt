@@ -13,9 +13,13 @@
 # Web
 -e git+ssh://git@github.com/roussel2nis/web.git@car_master#egg=odoo10-addon-web_responsive&subdirectory=setup/web_responsive
 -e git+ssh://git@github.com/roussel2nis/web.git@car_master#egg=odoo10-addon-web_environment_ribbon&subdirectory=setup/web_environment_ribbon
+-e git+ssh://git@github.com/roussel2nis/web.git@car_master#egg=odoo10-addon-help_online&subdirectory=setup/help_online
 
 # account-financial-reporting
 -e git+ssh://git@github.com/roussel2nis/account-financial-reporting.git@car_master#egg=odoo10-addon-mis_builder&subdirectory=setup/mis_builder
+
+# pos addons
+-e git+ssh://git@github.com/roussel2nis/pos-addons.git@car_master#egg=odoo10-addon-pos_product_available&subdirectory=setup/pos_product_available
 
 # L10n-belgium
 # -e git+ssh://git@github.com/roussel2nis/l10n-belgium.git@car_master#egg=odoo10-addon-l10n_be_mis_reports&subdirectory=setup/l10n_be_mis_reports
