@@ -14,9 +14,9 @@ subprocess.check_call([
     'rsync', '--verbose', '--recursive', '--times', '--delete',
     '--rsync-path', 'sudo -u odoo-prod rsync',
     'release/',
-    'denis@192.168.178.153:/home/odoo-prod/instance/release/',
+    'denis@192.168.178.100:/home/odoo-prod/instance/release/',
 ])
 subprocess.check_call([
-    'ssh', 'denis@192.168.178.153',
+    'ssh', 'denis@192.168.178.100',
     'sudo -H -u odoo-prod /home/odoo-prod/instance/install.sh ' + version,
 ])
