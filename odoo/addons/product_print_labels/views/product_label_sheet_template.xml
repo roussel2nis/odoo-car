@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2017 Denis Roussel
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+
+<odoo>
+<data>
+
+    <record model="ir.ui.view" id="product_label_sheet_template_form_view">
+        <field name="name">product.label.sheet.template.form (in product_print_labels)</field>
+        <field name="model">product.label.sheet.template</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="paperformat_id"/>
+                        <field name="nb_col"/>
+                        <field name="nb_row"/>
+                    </group>
+                    <group>
+                        <field name="print_logo"/>
+                        <field name="print_barcode"/>
+                        <field name="barcode_field"/>
+                    </group>
+                </sheet>
+                <div class="oe_chatter"></div>
+            </form>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="product_label_sheet_template_search_view">
+        <field name="name">product.label.sheet.template.search (in product_print_labels)</field>
+        <field name="model">product.label.sheet.template</field>
+        <field name="arch" type="xml">
+            <search>
+                <!-- TODO -->
+            </search>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="product_label_sheet_template_tree_view">
+        <field name="name">product.label.sheet.template.tree (in product_print_labels)</field>
+        <field name="model">product.label.sheet.template</field>
+        <field name="arch" type="xml">
+            <tree>
+                <!-- TODO -->
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="product_label_sheet_template_act_window">
+        <field name="name">Product Label Sheet Template</field> <!-- TODO -->
+        <field name="res_model">product.label.sheet.template</field>
+        <field name="view_mode">tree,form</field>
+        <field name="domain">[]</field>
+        <field name="context">{}</field>
+    </record>
+
+
+</data>
+</odoo>

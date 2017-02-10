@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2017 Denis Roussel
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+
+<odoo>
+<data>
+
+    <record model="ir.ui.menu" id="product_label_sheet_menu">
+        <field name="name">Product Label Sheets</field>
+        <field name="parent_id" ref="point_of_sale.menu_point_of_sale"/> 
+        <field name="action" ref="product_print_labels.product_label_sheet_act_window"/>
+        <field name="sequence" eval="16"/> 
+    </record>
+    
+    <record model="ir.ui.menu" id="product_label_sheet_template_menu">
+        <field name="name">Product Label Sheet Template</field>
+        <field name="parent_id" ref="point_of_sale.menu_point_of_sale"/> <!-- TODO -->
+        <field name="action" ref="product_print_labels.product_label_sheet_template_act_window"/>
+        <field name="sequence" eval="16"/> 
+    </record>
+
+</data>
+</odoo>
